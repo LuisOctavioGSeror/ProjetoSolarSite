@@ -1,0 +1,399 @@
+/* Style all font awesome icons */
+html  {
+  scroll-behavior: smooth !important;
+}
+
+body{
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+img{
+  width: 100%;
+  object-fit: cover;
+}
+
+video{
+  object-fit: cover;
+}
+
+.carousel-item img{
+  height: 450px;
+  object-fit: cover;
+}
+
+.linha{
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+}
+
+.cbg {
+  background-color: #ffffff;
+}
+
+h4, h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#O_que_fazemos h1{
+  color: rgb(235, 82, 12);
+}
+
+.navbarrr{
+  background: rgba(235, 82, 12, 0);
+  /*background: rgba(255, 255, 255, 0.1);*/
+  backdrop-filter: blur(3px);
+  -webkit-transition: all 0.8s ease;
+   transition: all 0.8s ease;
+}
+
+
+.navbarrr h4{
+  opacity: 1;
+  font-size: 25px;
+}
+
+.car{
+  margin-top: -180px;
+}
+
+.scrolled{
+ /* 
+  background-color: rgba(53, 59, 53, 0.85);
+ */
+ background: rgba(235, 82, 12, 0.8); 
+ /*background: rgba(255, 255, 255, 0.8);*/
+ backdrop-filter: blur(8px);
+
+}
+
+
+
+nav ul li a h4{
+  color: rgb(255, 255, 255);
+  /*color: rgb(235, 82, 12);*/
+  font-size: 34px;
+  -webkit-transition: all 0.8s ease;
+   transition: all 0.8s ease;
+}
+
+nav ul li a h4:hover{
+  font-size: 34px;
+  opacity: 1;
+}
+
+.scrolled2:hover{
+  color: rgb(221, 127, 111);
+}
+
+.active-item{
+  color: rgb(221, 127, 111);
+}
+
+h1{
+  padding-left: 5%;
+  padding-top: 5%;
+  font-size: 50px;
+}
+
+h2{
+  padding-left: 5%;
+}
+.col-5 img{
+  padding-top: 5%;
+  margin-left: 20%;
+}
+
+
+h5{
+  font-size: 21px;
+  font-family: sans-serif;
+}
+
+.service img{
+  width: 100%;
+  object-fit: cover;
+  -webkit-transition: all 0.8s ease;
+   transition: all 0.8s ease;
+}
+
+.service{
+  margin-left: 20%;
+}
+
+.service button{
+  margin-left: 31%;
+}
+
+
+.service img{
+  margin-right: 10%;
+}
+
+.nossos_profissionais img{
+  width: 100%;
+  object-fit: cover;
+}
+
+
+@media only screen and (min-width: 576px){
+
+  #O_que_fazemos h1{
+    padding-left: 35%;
+  }
+
+#sobre_nos h5{
+  text-align: justify;
+  text-justify: inter-word; 
+}
+
+.social-icon p{
+  margin-left: 40%;
+}
+
+#localização h1{
+    margin-left: 30%;
+  } 
+#localização h2{
+  font-size: 30px;
+}   
+  
+  #esteticafacialh5{
+    padding-left: 24%;
+
+  }
+
+  #esteticacorporalh5{
+    padding-left: 20%;
+  }
+
+  #esteticacapilarh5{
+    padding-left: 23%;
+  }
+
+  #micropigmentaçãoh5{
+    padding-left: 17%;
+  }
+
+  #pilatesh5{
+    padding-left: 38%;
+  }
+
+  #salaodebelezah5{
+    padding-left: 20%;
+  }
+
+  #barbeariah5{
+    padding-left: 33%;
+  }
+
+  #depilaçãoh5{
+    padding-left: 32%;
+  }
+
+  #podologiah5{
+    padding-left: 32%;
+  }
+
+  #terapiash5{
+    padding-left: 35%;
+  }
+
+  #lashesh5{
+    padding-left: 20%;
+  }
+
+  #psicologah5{
+    padding-left: 33%;
+  }
+
+  #bistroh5{
+    padding-left: 40%;
+  }
+
+  #tatuagensh5{
+    padding-left: 32%;
+  }
+
+  #nutricionistah5{
+    padding-left: 28%;
+  }
+  
+  #harmonizaçãoh5{
+    padding-left: 14%;
+  }
+
+  .carrouselimage {
+    height: 800px;
+    width: 900px;
+    object-fit: cover;
+  }
+
+  .abuton{
+    margin-left: 45%; 
+    margin-top: 5%;
+  }
+
+}
+@media only screen and (max-width: 576px){
+
+  h1{
+    font-size: 50px;
+  }
+
+  #localização h1{
+  padding-left: 22%;
+  }
+
+  .service img{
+    width: 70%;
+  }
+
+  .service button{
+    margin-left: 50%;
+  }
+
+
+  nav img{
+    margin-left: 35%;
+    margin-bottom: 5%;
+  }
+
+  .abuton{
+    margin-left: 10%;
+  }
+
+  .navbarrr img{
+    width: 80px;
+    height: 80px;
+  }
+
+}
+
+.btn {
+  background-color: rgb(235, 82, 12);
+  -webkit-transition: all 0.8s ease;
+   transition: all 0.8s ease;
+}
+
+
+.buttons-group .btn{
+  margin-left: 5%;
+}
+
+#image1 :hover{
+  opacity: 0;
+
+}
+
+
+.social-icon a img{
+  height: 64px;
+  width: 64px;
+  margin-left: 3%;
+}
+
+
+.agendamento img{
+  margin-left: 5%;
+  height: 76px;
+  width: 76px;
+  object-fit: cover;
+}
+
+.dropdown li{
+  background-color: rgb(235, 82, 12);
+  backdrop-filter: blur(4px);
+}
+
+.dropdown h5{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.dropdown-item h5{
+  color:  rgb(255, 255, 255);
+}
+
+.dropdown-menu :hover{
+  color: black;
+}
+
+#localização h2{
+  font-family: initial;
+}
+
+#footer{
+  background: rgb(235, 82, 12);
+}
+
+#footer a h5{
+  color: #ffffff;
+}
+
+#footer h5{
+  color: #ffffff;
+  font-size: 17px;
+}
+
+#footer h4{
+  color: #ffffff;
+  text-align: center; 
+  font-size: 35px;
+}
+
+#O_SOLAR h1{
+  color: rgb(235, 82, 12);
+}
+
+
+.movetxt {
+  position: relative;
+  -webkit-animation: moving 1.5s normal;
+  animation: moving 1.5s normal;
+}
+
+@keyframes moving {
+  from {left: -1000px;}
+  to {left: 0px;}
+}
+
+.moveimg {
+  position: relative;
+  -webkit-animation: moving2 1.5s normal;
+  animation: moving2 1.5s normal;
+}
+
+@keyframes moving2 {
+  from {right: -1000px;}
+  to {right: 0px;}
+}
+/*.agendamento a :hover{
+  height: 150px;
+  width: 150px;
+}
+*/
+
+/* The animation code 
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* The element to apply the animation to 
+.anin:hover {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+*/
